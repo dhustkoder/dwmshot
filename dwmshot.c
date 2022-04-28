@@ -10,7 +10,7 @@
 #define STATIC_ASSERT(cond) extern void dwmshot_static_assert(int hack[(cond)?1:-1])
 #define STATIC_STR_LEN(str) ((sizeof((str))/sizeof((str)[0])) - 1)
 
-#include "dhust-nx-config.h"
+#include "nx-config.h"
 
 static void save_png(int w, int h, char* data, int pitch)
 {
